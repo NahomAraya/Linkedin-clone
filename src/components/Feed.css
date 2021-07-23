@@ -1,0 +1,92 @@
+.feed{
+    flex: 0.6;
+    margin:20px;
+}
+
+.feed_inputContainer{
+   background-color: white;
+   padding: 10px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+}
+.feed_input{
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    padding-left: 15px;
+    color:gray;
+}
+.feed_input > form{
+    display: flex;
+    width: 100%;
+
+}
+.feed_input > form > input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+.feed_input > form> button{
+    font: inherit;
+    cursor: pointer;
+    color: #77002e;
+    border: 1px solid #77002e;
+    background-color: transparent;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+}
+.feed_input > form> button:hover{
+    background-color: #ffe2ed;
+}
+.feed_inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+.input_options{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+}
+.input_options:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.input_options > h3{
+    margin-left: 5px;
+}
+.post{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.post_header{
+    display: flex;
+    margin-bottom: 10px;
+}
+.post_profile{
+    margin-left: 5px;
+}
+.post_profile > h{
+    font-size: 15px;
+    
+}
+.post_profile > p{
+    font-size: 12px;
+    color: grey;
+}
+.post_body{
+    overflow-wrap: anywhere;
+}
+.post_buttons{
+    display: flex;
+    justify-content: space-evenly;
+
+}
